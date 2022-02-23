@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-// import {lorem} from 'faker';
+import faker from '@faker-js/faker';
 
-// lorem.sentence()
+faker.lorem.sentence();
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
